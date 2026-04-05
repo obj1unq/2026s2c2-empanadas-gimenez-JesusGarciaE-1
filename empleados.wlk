@@ -4,23 +4,23 @@ object galvan (){
   var deuda = 0
   var dinero = 0
   
-  fun sueldo(cant: Int){
+  method sueldo(cant: Int){
     sueldo = cant
   }
   
-  fun sueldo(): Int{
+  method sueldo(): Int{
     return sueldo
   }
   
-  fun deuda(): Int{
+  method deuda(): Int{
     return deuda
   }
   
-  fun dinero(): Int{
+  method dinero(): Int{
     return dinero
   }
   
-  fun gastar(cant: Int){
+  method gastar(cant: Int){
     deuda += cant
     dinero -= cant
   }
@@ -31,23 +31,23 @@ object baigorria (){
   var deuda = 0
   var dinero = 0
   
-  fun sueldo(cant: Int){
+  method sueldo(cant: Int){
     sueldo = cant
   }
   
-  fun sueldo(): Int{
+  method sueldo(): Int{
     return sueldo
   }
   
-  fun deuda(): Int{
+  method deuda(): Int{
     return deuda
   }
   
-  fun dinero(): Int{
+  method dinero(): Int{
     return dinero
   }
   
-  fun gastar(cant: Int){
+  method gastar(cant: Int){
     deuda += cant
     dinero -= cant
   }
@@ -58,23 +58,23 @@ object Gimenez (){
   var deuda = 0
   var dinero = 300000
   
-  fun sueldo(cant: Int){
+  method sueldo(cant: Int){
     sueldo = cant
   }
   
-  fun sueldo(): Int{
+  method sueldo(): Int{
     return sueldo
   }
   
-  fun deuda(): Int{
+  method deuda(): Int{
     return deuda
   }
   
-  fun dinero(): Int{
+  method dinero(): Int{
     return dinero
   }
   
-  fun gastar(cant: Int){
+  method gastar(cant: Int){
     deuda += cant
     dinero -= cant
   }
